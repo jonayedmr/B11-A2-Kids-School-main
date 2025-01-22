@@ -202,9 +202,8 @@ footer{
   padding: 1em;
 }
 
-.story-container{
-  display: flex;
-  height: auto;
+.grad{
+  
   background: linear-gradient-reverse(rgb( 254 ,163,1,30%) 0%, rgb(255, 255, 255) 30%);
 }
 
