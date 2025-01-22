@@ -60,15 +60,15 @@ nav li {
   background-color: orange;
   border: none;
   }
-  .btn-black{
-    font-weight:semi-bold;
-    font-size: 18px;
-    color: rgb(255, 255, 255);
-    padding: 15px 30px;
-    border-radius: 12px;
-    background-color: rgb(0, 0, 0);
-    border: none;
-    }
+.btn-black{
+  font-weight:semi-bold;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  padding: 15px 30px;
+  border-radius: 12px;
+  background-color: rgb(0, 0, 0);
+  border: none;
+  }
 .btn-ball{
     height: 60px;
     width: 60px;
@@ -122,7 +122,11 @@ nav li {
   /* flex: 1; */
 }
 .banner{
-  flex-direction: column-reverse;
+  /* flex-direction: column-reverse; */
+  display: flex;
+  flex: 1;
+  align-items: center;
+  gap: 50px;
   
 }
 .single{
@@ -215,6 +219,7 @@ nav li {
   }
   
   .banner{ 
+    flex-direction: column-reverse;
     display: flex;
     text-align: center;
     } 
