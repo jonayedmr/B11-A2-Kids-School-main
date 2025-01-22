@@ -30,12 +30,10 @@ nav {
   margin: 20px 141px;
   
 }
-button{
-  border: none;
-}
+
+
 .navtilte{
   display: flex;
-  /* align-items:start; */
   font-weight: bold;
   font-size: 32px;
 }
@@ -78,6 +76,15 @@ nav li {
     background-color: orange;
     border: none;
   }
+  button{
+    border: none;
+    background-color: transparent;
+  }
+  button:hover{
+    border: none;
+    background-color: blueviolet;
+  }
+
 .banner-title{ 
     font-size: 56px;
     font-weight: bold;
@@ -119,39 +126,40 @@ nav li {
   display: flex;
   justify-content: space-around;
   gap: 24px;
-  /* flex: 1; */
+
 }
 .banner{
-  /* flex-direction: column-reverse; */
   display: flex;
   flex: 1;
   align-items: center;
   gap: 50px;
   
 }
-.single{
-  
-}
+
 .kinder-box{
-  /* align-items: center; */
-  /* width: 50%; */
+  
+  width: 367px;
+  height: auto;
   background: linear-gradient(rgb(222, 245, 255) 0%, rgb(255, 255, 255) 35%);
   border-radius:18px ;
+  
 }
 .smooth img{
-  border-radius: 16px;
+  border-radius: 16px 16px 0px 0px;
   background-color: rgb(255, 255, 255);
   
 }
 .ele-box{
-  /* align-items: center; */
-  /* width: 50%; */
+ 
+  width: 367px;
+  height: auto;
   background: linear-gradient(rgb(255, 244, 220) 10%, rgb(255, 255, 255) 50%);
   border-radius:18px ;
 }
 .mid-box{
-  /* align-items: center; */
-  /* width: 50%; */
+  
+  width: 367px;
+  height: auto;
   background: linear-gradient(rgb(244, 232, 255) 0%, rgb(255, 255, 255) 35%);
   border-radius:18px ;
 }
