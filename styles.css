@@ -23,6 +23,14 @@
   justify-content: space-between;
   align-items: center;
 }
+.attached-foot{
+  display: flex;
+  
+}
+.foot-title{
+  font-size: 24px;
+  font-weight: bold;
+}
 nav {
   display: flex;
   align-items: center;
@@ -139,12 +147,21 @@ nav li {
 }
 .box-container{
   display: flex;
-  justify-content: space-around;
-  gap: 24px;
+  justify-content: ;
+  gap: 50px;
+  /* align-items: flex-start; */
 
 }
+.box1{
+  width: 75%;
+  display: flex;
+}
+.box{
+  width: 75%;
+  /* display: flex; */
+}
 footer{
-  padding: 123px 228px 174px 140px;
+  padding: 123px 128px 174px 140px;
   background-color: #01ACFD;
   color: white;
   ;
@@ -152,7 +169,7 @@ footer{
 .foot-container{
   display: flex;
   justify-content: space-between;
-  /* flex: 1; */
+  /* flex: 1;  */
 }
 .banner{
   display: flex;
@@ -204,8 +221,9 @@ footer{
 }
 
 .grad{
-  
-  background: linear-gradient-reverse(rgb( 254 ,163,1,30%) 0%, rgb(255, 255, 255) 30%);
+  background-image: src="./images/bg.jpg";
+  background: linear-gradient(to top, rgb( 254 ,163,1,30%) 0%, rgb(255, 255, 255) 30%);
+  flex: 1;
 }
 
 
@@ -227,15 +245,24 @@ footer{
     
     display: none;
   }
+  ul{
+    margin-left: -40px;
+  }
+  li{
+    gap: 10px;
+    margin-bottom: 15px;
+  }
   nav ul{
-    gap: 16px;
     
+    display: none;
   }
   nav li {
     font-size: 16px;
+    padding: 5px;
     display: none;
     
   }
+  
   .btn-story{
     margin-left: none;
     font-size: 9px;
@@ -255,6 +282,7 @@ footer{
     text-align: center;
     padding: 10px;
   }
+  
   .box-container{
     flex-direction: column;
     gap: 24px;
@@ -282,8 +310,12 @@ footer{
     margin-top: 20px;
     margin-bottom: 40px;
   }
+  .foot-container{
+    flex-direction: column;
+      
+  }
   footer{
     padding: 20px;
-    flex-direction: column;
+    flex-direction: column-reverse;;
   }
 }
