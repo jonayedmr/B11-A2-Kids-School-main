@@ -126,7 +126,7 @@ nav li {
 .story-box{
   /* display: flex;
   gap: 5px; */
-  flex: 1;
+  /* flex: 1; */
 }
 
 /* .row{
@@ -147,11 +147,12 @@ footer{
   padding: 123px 228px 174px 140px;
   background-color: #01ACFD;
   color: white;
+  ;
 }
 .foot-container{
   display: flex;
   justify-content: space-between;
-  flex: 1;
+  /* flex: 1; */
 }
 .banner{
   display: flex;
@@ -235,13 +236,24 @@ footer{
     display: none;
     
   }
+  .btn-story{
+    margin-left: none;
+    font-size: 9px;
+    
+  }
+  .midd{
+    position: absolute;
+    margin-top: -20px;
+    margin-left: -40px;
+  }
   .btn-primary{
     font-size: 16px;
     padding: 12px 24px;
   }
   .container{
-    margin: 10px;
-    
+    margin: 6px;
+    text-align: center;
+    padding: 10px;
   }
   .box-container{
     flex-direction: column;
