@@ -42,7 +42,10 @@ nav ul{
   gap: 32px;
   align-items: center;
 }
-nav ul li{
+footer ul{
+
+}
+ ul li{
   list-style: none;
 }
 nav li {
@@ -51,9 +54,9 @@ nav li {
 /* buttons */
 .btn-primary{
   font-weight:semi-bold;
-  font-size: 18px;
+  font-size: 20px;
   color: rgb(255, 255, 255);
-  padding: 15px 30px;
+  padding: 10px 61px;
   border-radius: 12px;
   background-color: orange;
   border: none;
@@ -67,6 +70,17 @@ nav li {
   background-color: rgb(0, 0, 0);
   border: none;
   }
+.btn-story{
+  border-radius: 48px;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  padding:10px ;
+  background-color: #5D58F0;
+  border: none;
+  margin-bottom: 60px;
+  margin-left: 38px;
+  
+}
 .btn-ball{
     height: 60px;
     width: 60px;
@@ -82,7 +96,8 @@ nav li {
   }
   button:hover{
     border: none;
-    background-color: blueviolet;
+    background-color: rgb(185, 128, 238);
+    border-radius: 50%;
   }
 
 .banner-title{ 
@@ -128,6 +143,16 @@ nav li {
   gap: 24px;
 
 }
+footer{
+  padding: 123px 228px 174px 140px;
+  background-color: #01ACFD;
+  color: white;
+}
+.foot-container{
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
 .banner{
   display: flex;
   flex: 1;
@@ -156,6 +181,10 @@ nav li {
   background: linear-gradient(rgb(255, 244, 220) 10%, rgb(255, 255, 255) 50%);
   border-radius:18px ;
 }
+.midd{
+  position: absolute;
+  margin-top: -30px;
+}
 .mid-box{
   
   width: 367px;
@@ -173,7 +202,11 @@ nav li {
   padding: 1em;
 }
 
-
+.story-container{
+  display: flex;
+  height: auto;
+  background: linear-gradient-reverse(rgb( 254 ,163,1,30%) 0%, rgb(255, 255, 255) 30%);
+}
 
 
 
@@ -183,6 +216,7 @@ nav li {
   img{
     max-width: 100%;
     max-height: 100%;
+    background-color: rgb(255, 255, 255);
   }
   nav {
     margin: 20px 20px;
@@ -236,5 +270,9 @@ nav li {
     font-weight: bold;
     margin-top: 20px;
     margin-bottom: 40px;
+  }
+  footer{
+    padding: 20px;
+    flex-direction: column;
   }
 }
