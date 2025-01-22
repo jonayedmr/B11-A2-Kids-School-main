@@ -55,6 +55,10 @@ footer ul{
 }
  ul li{
   list-style: none;
+  
+    gap: 10px;
+    margin-bottom: 15px;
+  
 }
 nav li {
   font-size: 20px;
@@ -132,9 +136,9 @@ nav li {
   
 }
 .story-box{
-  /* display: flex;
-  gap: 5px; */
-  /* flex: 1; */
+   display: flex;
+  gap: 30px; 
+  
 }
 
 /* .row{
@@ -158,6 +162,7 @@ nav li {
 }
 .box{
   width: 75%;
+  
   /* display: flex; */
 }
 footer{
@@ -192,6 +197,11 @@ footer{
   background-color: rgb(255, 255, 255);
   
 }
+.smooth{
+  gap: 20px;
+  border-radius: 16px;
+  background-color: rgb(255, 255, 255);
+}
 .ele-box{
  
   width: 367px;
@@ -213,7 +223,9 @@ footer{
 .square{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 5px;
+  gap: 20px;
+  
+  
   
 }
 .pad{
@@ -221,8 +233,9 @@ footer{
 }
 
 .grad{
-  background-image: src="./images/bg.jpg";
-  background: linear-gradient(to top, rgb( 254 ,163,1,30%) 0%, rgb(255, 255, 255) 30%);
+  
+  background: linear-gradient(to top, rgb( 254 ,163,1) 0%, rgb(255, 255, 255) 30% ), url('./assets/bg.png');
+  background-size: cover;
   flex: 1;
 }
 
@@ -248,10 +261,7 @@ footer{
   ul{
     margin-left: -40px;
   }
-  li{
-    gap: 10px;
-    margin-bottom: 15px;
-  }
+  
   nav ul{
     
     display: none;
@@ -298,7 +308,10 @@ footer{
     border-bottom: black;
     border-width: 2px;
   }
-  
+  .banner-title{ 
+    font-size: 36px;
+    font-weight: bold;
+    }
   .banner{ 
     flex-direction: column-reverse;
     display: flex;
